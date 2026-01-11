@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <title>Mini lekcija: Rad s tekstom</title>
+</head>
+<body>
+
+  <header>
+    <h1>Mini lekcija: Rad s tekstom u HTML-u</h1>
+    <p>Ova stranica prikazuje osnovne elemente za pisanje i organizaciju teksta.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>1. Naslovi i odlomci</h2>
+      <p>Naslovi se koriste za hijerarhiju sadržaja, a odlomci za običan tekst.</p>
+
+      <h3>Primjer hijerarhije</h3>
+      <p>Ovaj odlomak pripada podnaslovu h3, koji je unutar cjeline h2.</p>
+    </section>
+
+    <section>
+      <h2>2. Prijelom retka i tematski prijelaz</h2>
+      <p>
+        Primjer adrese s prijelomima retka:<br>
+        Ulica Primjera 10<br>
+        10000 Zagreb
+      </p>
+
+      <hr>
+
+      <p>Vodoravna crta (hr) iznad označava prijelaz na novu temu u sadržaju.</p>
+    </section>
+
+    <section>
+      <h2>3. Specijalni znakovi i razmaci</h2>
+      <p>
+        Znakovi &lt; i &gt; koriste se za HTML oznake, pa se u tekstu pišu kao entiteti.
+        Također, neprekinuti razmak izgleda ovako: Zagreb&nbsp;Centar.
+      </p>
+      <p>
+        Ako se u kodu upiše više razmaka      zaredom, u prikazu se to najčešće svodi na jedan razmak.
+      </p>
+    </section>
+
+    <section>
+      <h2>4. Predformatirani tekst</h2>
+      <p>Element pre čuva razmake i prijelome redaka:</p>
+
+      <pre>
+Ime: Ana
+Prezime: Horvat
+Napomena:   razmaci se ovdje čuvaju
+      </pre>
+    </section>
+
+    <section>
+      <h2>5. Superskript i subskript</h2>
+      <p>Matematika: x<sup>2</sup> + y<sup>2</sup></p>
+      <p>Kemija: H<sub>2</sub>O</p>
+    </section>
+
+    <section>
+      <h2>6. Semantičko naglašavanje teksta</h2>
+      <p><strong>Upozorenje:</strong> Polja označena zvjezdicom su obavezna.</p>
+      <p>U ovoj rečenici jedna riječ je <em>naglašena</em> jer je važna u kontekstu.</p>
+      <p>Primjer naredbe u terminalu: <code>ls</code> ili <code>dir</code>.</p>
+      <p>Naziv djela može se označiti ovako: <cite>Na Drini ćuprija</cite>.</p>
+    </section>
+
+    <section>
+      <h2>7. Prezentacijski tagovi (b, i, u) – primjer</h2>
+      <p>
+        Ovo je <b>podebljani</b> tekst, ovo je <i>nakošeni</i> tekst, a ovo je <u>podcrtani</u> tekst.
+      </p>
+      <p>
+        Napomena: ovi tagovi mijenjaju izgled, ali ne opisuju značenje teksta.
+      </p>
+    </section>
+
+    <!-- Ovaj komentar je vidljiv u kodu, ali se ne prikazuje na stranici -->
+    <section>
+      <h2>8. Komentari</h2>
+      <p>Komentari služe za bilješke u HTML kodu i ne prikazuju se korisniku.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Primjer stranice za vježbu HTML teksta.</p>
+  </footer>
+
+</body>
+</html>
