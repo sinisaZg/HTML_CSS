@@ -1,1 +1,128 @@
+<!doctype html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vježba - oblikovanje teksta</title>
+
+  <style>
+    html { font-size: 16px; }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;            /* px */
+      line-height: 1.6;
+      color: #222;
+      margin: 16px;               /* px */
+    }
+
+    .okvir {
+      border: 1px solid #999;
+      padding: 12px;              /* px */
+      margin: 12px 0;             /* px */
+    }
+
+    h1 {
+      font-size: 2rem;            /* rem */
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;        /* px */
+      margin: 0 0 8px 0;          /* px */
+      color: #0a58ca;
+    }
+
+    h2 {
+      font: italic 600 24px/1.2 Arial, sans-serif; /* skraćeni font zapis (px) */
+      margin: 14px 0 6px 0;       /* px */
+      color: #333;
+    }
+
+    h3 {
+      font-size: 18px;            /* px */
+      font-weight: 700;
+      margin: 12px 0 6px 0;       /* px */
+      color: #444;
+    }
+
+    p {
+      font-size: 1rem;            /* rem */
+      margin: 6px 0;              /* px */
+    }
+
+    .p-plavi { color: #0a58ca; }
+    .p-zeleni { color: #198754; }
+    .p-sivi { color: #555; }
+
+    .istaknuto {
+      color: #dc3545;
+      font-weight: 700;
+    }
+
+    ul, ol {
+      font-size: 16px;            /* px */
+      margin: 6px 0 10px 20px;    /* px */
+    }
+
+    .lista-ljubicasta { color: #6f42c1; }
+    .lista-narancasta { color: #fd7e14; }
+
+    a {
+      font-size: 1rem;            /* rem */
+      color: #0a58ca;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .napomena {
+      font-size: 14px;            /* px */
+      text-transform: capitalize;
+      color: #6c757d;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Moja stranica</h1>
+
+  <p class="p-sivi">Ovo je kratak uvodni odlomak. Jedna riječ može biti <span class="istaknuto">istaknuta</span>.</p>
+  <p class="p-plavi">Ovo je drugi odlomak s drugom bojom teksta.</p>
+
+  <div class="okvir">
+    <h2>Prvi blok sadržaja</h2>
+    <p class="napomena">ovo je mala napomena koja počinje malim slovima.</p>
+
+    <h3>Nepobrojana lista</h3>
+    <ul class="lista-ljubicasta">
+      <li>HTML elementi</li>
+      <li>CSS svojstva</li>
+      <li>Linkovi i liste</li>
+    </ul>
+
+    <p class="p-zeleni">Ovaj odlomak ima treću boju.</p>
+
+    <p>Korisni linkovi:</p>
+    <a href="https://www.google.com" target="_blank">Google</a><br>
+    <a href="https://www.w3schools.com" target="_blank">W3Schools</a>
+  </div>
+
+  <div class="okvir">
+    <h2>Drugi blok sadržaja</h2>
+    <p class="p-sivi">Ovdje se nalazi još jedan odlomak kako bi se vidjelo ponavljanje stila.</p>
+
+    <h3>Pobrojana lista</h3>
+    <ol class="lista-narancasta">
+      <li>Napraviti HTML strukturu</li>
+      <li>Dodati osnovne stilove</li>
+      <li>Provjeriti rezultat</li>
+    </ol>
+
+    <p class="p-plavi">Tekst može imati različite boje, a linkovi imaju ukrašavanje na hover.</p>
+  </div>
+
+</body>
+</html>
 
