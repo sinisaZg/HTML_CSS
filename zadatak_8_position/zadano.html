@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vježba: relative/absolute + margin-left/left</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .parent {
+            width: 500px;
+            height: 180px;
+            border: 2px solid #000;
+            padding: 10px;
+            margin-top: 10px;
+            position: relative;
+        }
+
+        .child {
+            width: 100px;
+            height: 100px;
+            border: 1px solid #000;
+            display: inline-block;
+            margin-right: 10px;
+            padding: 6px;
+            vertical-align: top;
+            background: #f2f2f2;
+        }
+
+        .c1 {}
+
+        .c2 {
+            position: relative;
+            left: 30px;
+            top: 10px;
+        }
+
+        .c3 {
+            margin-left: 30px;
+        }
+
+        .c4 {
+            position: absolute;
+            left: 360px;
+            top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Vježba: razlika relative/absolute i margin-left/left</h2>
+
+    <div class="parent">
+        <div class="child c1">1 normal</div>
+        <div class="child c2">2 relative left/top</div>
+        <div class="child c3">3 margin-left</div>
+        <div class="child c4">4 absolute left/top</div>
+    </div>
+</body>
+
+</html>
